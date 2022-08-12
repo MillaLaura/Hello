@@ -28,11 +28,11 @@ string myString = "This is how to define a string variable!";
 myString = Console.ReadLine();
 
 //Writing it back to the console
-Console.WriteLine("Aaah, welcome " + myString + ", nice to meet you!");
+Console.WriteLine("Aaah, Hello " + myString + ", good to see you :)");
 #endregion
 
 #region Data types
-Console.WriteLine("Do you want to learn about the simplest data types?");
+Console.WriteLine("Do you want a cup of tea?");
 /*
 * The four main basic types we we will work with in the beginning are:
 * bool, Int, Float and String   
@@ -51,46 +51,13 @@ Console.WriteLine("Do you want to learn about the simplest data types?");
 string answer = Console.ReadLine();
 
 bool LearnAboutDataTypes = false;
-if(answer == "yes"){
+if(answer == "no"){
     LearnAboutDataTypes = true;
 }
 
 if(LearnAboutDataTypes == true){
-    Console.WriteLine("Then you have come to the right place!");
-    Console.WriteLine("The 'bool' type can either be 'true' or 'false', nothing more, nothing less.");
-    Console.WriteLine("When you answered 'yes', a bool named 'LearnAboutDataTypes' was set to 'true'");
-    Console.WriteLine("And allowed for these messages!");
-    Console.WriteLine("...");
-    Console.ReadLine();
+    Console.WriteLine("Ah well, it was poisoned anyway");
     
-    Console.WriteLine("Now... The next data type we are gonna talk about is the integer, called an 'int'");
-    Console.WriteLine("It is used to store whole numbers, like 1,2,3,4 and so on.");
-    Console.WriteLine("Try inserting an integer now:");
-    string inputFromConsole = Console.ReadLine();
-    int number = int.Parse(inputFromConsole);
-    
-    Console.WriteLine("I have now converted a text string into an integer!");
-    number = number + 1;
-    //number++;
-    //number += 1;
-    Console.WriteLine("We can now do math operations on it, and voila, your number + 1 is equal to = " + number);
-    Console.WriteLine("...");
-    Console.ReadLine();
-
-    Console.WriteLine("Next up we have the Float data type");
-    Console.WriteLine("Float is decimal numbers, you can do math on it, just as we did with the integer");
-    Console.WriteLine("Remember to use 'f'!");
-    float OneThird = 1.0f/3.0f; //Notice the 'f' to indicate this number is a float value
-    Console.WriteLine("Like for example 1.0f/3.0f, which gives : " + OneThird);
-    Console.WriteLine("where as 1/3 gives = " + 1/3 + ". Because the computer thinks it is working with whole numbers (integers)");
-    Console.WriteLine("...");
-    Console.ReadLine();
-
-    Console.WriteLine("Lastly, the string data type.");
-    Console.WriteLine("Strings are text, and can be found between quotation marks");
-    Console.WriteLine("We have used strings to read and write to the console, this line is a string");
-    Console.WriteLine("...");
-    Console.ReadLine();
 }
 #endregion
 Console.WriteLine("...The end...");
